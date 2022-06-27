@@ -39,3 +39,5 @@ def submit_form():
         return 'did not save to database'
     else:
       return 'something went wrong. Try again!'
+
+app.run(host='0.0.0.0', port=5000, debug=True)
